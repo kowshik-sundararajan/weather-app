@@ -1,8 +1,12 @@
 const request = require('request')
 
+const env = require('../env.json');
+
+var DARK_SKY_API_SECRET = env.DARK_SKY_API_SECRET;
+
 var getWeather = (lat, lng, callback) => {
 	request({
-		url: `https://api.darksky.net/forecast/96a1cc55b31d55c9b981e55a7d74fd3d/${lat},${lng}`,
+		url: `https://api.darksky.net/forecast/${DARK_SKY_API_SECRET}/${lat},${lng}`,
 		json: true
 	}, (error, response, body) => {
 		if (error) {
