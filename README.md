@@ -8,6 +8,8 @@ node v6.9.5
 Dark Sky API key
 ```
 
+Once you have your Dark Sky API secret key, create the ```env.json``` file in the root of the project and store the secret key as ```DARK_SKY_API_SECRET``` 
+
 Launch a terminal and enter the following commands in order:
 ```
 1. git clone git@github.com:kowshik-sundararajan/weather-app.git
