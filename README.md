@@ -18,7 +18,7 @@ Launch a terminal and enter the following commands in order:
 ```
 
 ## Tech Stack
-* [Node.js](http://nodejs.org/) - The web framework used
+* [Node.js](https://nodejs.org/) - The web framework used
 * [Google Maps API](https://maps.googleapis.com/maps/api/geocode/) - Used to validate location
 * [Dark Sky API](https://api.darksky.net/forecast/) - Used to get the weather for specified location
 
